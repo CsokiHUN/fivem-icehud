@@ -6,4 +6,4 @@ This script compatible with esx gamemode.
 ![screenshoot](https://i.imgur.com/RmvrfZk.png)
 
 # Used Sources
--Font Awesome ![link](https://fontawesome.com/)
+-Font Awesome ( https://fontawesome.com/ )
