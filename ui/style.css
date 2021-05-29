@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	width: 15em;
+	height: 20em;
+	right: 1em;
+	top: -0.5em;
+}
+
+#hpicon {
+	margin-top: 21px;
+	margin-left: 3px;
+	position: absolute;
+	color: rgba(255,87,87,1);
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#hp {
+	background: black; 
+	width: 220px;
+	height: 18px;
+	margin-top: 21px;
+	margin-left: 23px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+#hpbar {
+	background-color: rgba(255,87,87,1);
+	width: 216px;
+	height: 14px;
+	margin-top: 23px;
+	margin-left: 25px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+#armoricon {
+	margin-top: 45px;
+	margin-left: 5px;
+	position: absolute;
+	color: rgba(30,144,255,1);
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#armor {
+	background: black; 
+	width: 220px;
+	height: 18px;
+	margin-top: 45px;
+	margin-left: 23px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+#armorbar {
+	background-color: rgba(30,144,255,1);
+	width: 216px;
+	height: 14px;
+	margin-top: 47px;
+	margin-left: 25px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+#hungericon {
+	margin-top: 69px;
+	margin-left: 5px;
+	position: absolute;
+	color: rgba(210,105,30,1);
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#hunger {
+	background: black; 
+	width: 220px;
+	height: 18px;
+	margin-top: 69px;
+	margin-left: 23px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+#hungerbar {
+	background-color: rgba(210,105,30,1);
+	width: 216px;
+	height: 14px;
+	margin-top: 71px;
+	margin-left: 25px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+#drinkicon {
+	margin-top: 92px;
+	margin-left: 5px;
+	position: absolute;
+	color: rgba(135,206,235,1);
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#drink {
+	background: black; 
+	width: 220px;
+	height: 18px;
+	margin-top: 93px;
+	margin-left: 23px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+#drinkbar {
+	background-color: rgba(135,206,235,1);
+	width: 216px;
+	height: 14px;
+	margin-top: 95px;
+	margin-left: 25px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+#staminaicon {
+	margin-top: 116px;
+	margin-left: 9px;
+	position: absolute;
+	color: rgba(255,255,255,1);
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#stamina {
+	background: black; 
+	width: 220px;
+	height: 18px;
+	margin-top: 117px;
+	margin-left: 23px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+#staminabar {
+	background-color: rgba(255,255,255,1);
+	width: 216px;
+	height: 14px;
+	margin-top: 119px;
+	margin-left: 25px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+
+.anim {
+	width: 100%;
+	transition: width 0.8s;		
+}
